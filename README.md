@@ -9,6 +9,8 @@ Tích hợp menu key được dùng để tiêm vào .IPA cho mục đích quả
 * Tải Basic Key version mới nhất về tại mục [Release](https://github.com/nduykhanh/basic-key/releases) và giải nén.
 * Đăng kí tài khoản tại [Basic key](https://key.getbasic.link/) và tạo package.
 * Copy token của package và thay thế thông tin YOUR_TOKEN trong file [Tweak.xm](https://github.com/nduykhanh/basic-key/blob/main/Tweak.xm)
+* Tuỳ chỉnh setRealUdidMode là true hoặc false tuỳ vào chế độ của package: true cho real udid và false cho fake udid
+* Bên trong hàm paid có thể load thư viện bên thứ 3 như Mod Menu sau khi nhập key thành công. Không dùng giữ nguyên.
 ```c++
 #import "API/BasicKey.h"
 #import "Obfuscate.h"
@@ -30,7 +32,7 @@ static void didFinishLaunching(CFNotificationCenterRef center, void *observer, C
 }
 
 ```
-* Chạy lệnh để build dylib hoặc framwork
+* Chạy lệnh để build dylib (sử dụng Makefile hiện tại) hoặc framwork (đổi tên file Makefile_dylib thành Makefile trước khi build)
 ```c++
 make clean package
 ``` 
