@@ -1,0 +1,10 @@
+Package: key.getbasic.link
+Name: Dylib key
+Depends: mobilesubstrate
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Basic Key
+Maintainer: Ken Nguyen
+Author: Ken Nguyen
+Section: Tweaks
+Homepage: https://getbasic.link
