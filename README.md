@@ -1,7 +1,7 @@
 # Basic Key
-Server Key một sản phẩm của GetBasic.link
+[Server Key](https://key.getbasic.link) một sản phẩm của [GetBasic.link](https://getbasic.link/)
 
-Tích hợp menu key được dùng để tiêm vào .IPA cho mục đích quản lý người dùng truy cập vào ứng dụng. Hỗ trợ build .dylib và .framework với THEOS.
+Tích hợp menu key được dùng để tiêm vào .IPA cho mục đích quản lý người dùng truy cập vào ứng dụng. Hỗ trợ build .dylib và .framework với [THEOS](https://theos.dev/).
 
 # ScreenShots
 
