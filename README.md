@@ -3,6 +3,8 @@
 
 Tích hợp menu key được dùng để tiêm vào .IPA cho mục đích quản lý người dùng truy cập vào ứng dụng. Hỗ trợ build .dylib và .framework với [THEOS](https://theos.dev/).
 
+Demo: https://testflight.apple.com/join/aR61BWFh 
+
 # Installation
 
 * Cài đặt [THEOS](https://theos.dev/) trên máy tính hoặc trên điện thoại của bạn.
