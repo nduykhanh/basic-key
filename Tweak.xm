@@ -9,7 +9,7 @@ static void didFinishLaunching(CFNotificationCenterRef center, void *observer, C
 
   [API paid:^{
       // NSLog(@"Executing actions after login success");
-      [API showMessage:@"Basic Key" message:@"Start mod menu theos" shouldExit:NO];
+      [API showMessage:@"Basic Key" message:@"Start mod menu" shouldExit:NO];
   }];
 }
 
