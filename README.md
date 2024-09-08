@@ -38,7 +38,8 @@ static void didFinishLaunching(CFNotificationCenterRef center, void *observer, C
 * Chạy lệnh để build .framwork (sử dụng Makefile hiện tại) hoặc .dylib (đổi tên file Makefile_dylib thành Makefile trước khi build)
 ```c++
 make clean package
-``` 
+```
+Lưu ý: hiện tại chỉ hỗ trợ make trên macOS. (supported on platforms using the legacy runtime). 
 # ScreenShots
 
 | Style	| Image	| Image	|
